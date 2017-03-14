@@ -59,12 +59,4 @@ rm -rf %{buildroot}
 %config(noreplace) %{_sysconfdir}/apache2/conf.modules.d/*.conf
 
 %changelog
-* Mon Jun 28 2016 Prajith <prajithpalakkuda@gmail.com> - 1.9-3
-- Added mod_ruid2 as conflict package
-
-* Thu Dec 17 2015 Prajith <prajithpalakkuda@gmail.com> - 1.9-2
-- Change version and release to 'latest' and 'stable'
-- update license to ' Apache Software License'
-
-* Tue Dec 15 2015 Prajith <prajithpalakkuda@gmail.com> - 1.9-1
-- Implement a new spec for cPanel
+* Tue Mar 14 2017 Jacob Perkins <jacob.perkins@cpanel.net> - stable-1
