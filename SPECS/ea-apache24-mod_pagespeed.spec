@@ -24,10 +24,10 @@ Apache module created by Google to help Make the Web Faster by rewriting web pag
 
 %prep
 %if %{__isa_bits} == 64
-wget -q -N -O  mod-pagespeed-stable.rpm https://dl-ssl.google.com/dl/linux/direct/mod-pagespeed-stable_current_x86_64.rpm
+wget -N -O  mod-pagespeed-stable.rpm https://dl-ssl.google.com/dl/linux/direct/mod-pagespeed-stable_current_x86_64.rpm
 %endif
 %if %{__isa_bits} == 32
-wget -q -N -O  mod-pagespeed-stable.rpm https://dl-ssl.google.com/dl/linux/direct/mod-pagespeed-stable_current_i386.rpm
+wget -N -O  mod-pagespeed-stable.rpm https://dl-ssl.google.com/dl/linux/direct/mod-pagespeed-stable_current_i386.rpm
 %endif
 
 %build
